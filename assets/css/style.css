@@ -556,16 +556,6 @@ h5,
     border: 1px solid #d9d9d9;
 }
 
-.contact_info_box .text::marker {
-    font-size: 13px;
-    font-weight: 500;
-    display: block;
-    margin-bottom: 15px;
-    width: 95%;
-    padding: 15px 10px;
-    border-color: red;
-}
-
 .contact_info_box textarea {
     display: block;
     font-size: 13px;
@@ -575,6 +565,12 @@ h5,
     padding: 15px 10px;
     margin-bottom: 15px;
     border: 1px solid #d9d9d9;
+}
+
+.contact_info_box :focus{
+    border: 1px rgb(127, 197, 255) solid;
+    outline: none;
+    transition-duration: 0.2s;
 }
 
 .contact_info_box button {
@@ -588,6 +584,7 @@ h5,
     padding: 15px 10px;
     margin-bottom: 12px;
     font-size: 15px;
+    transition-duration: 0.3s;
 }
 
 .contact_info_box button:hover {
